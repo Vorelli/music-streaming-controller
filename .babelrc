@@ -1,0 +1,14 @@
+{
+  "plugins": ["@babel/transform-react-jsx"],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      },
+      "babel/preset-react"
+    ]
+  ]
+}
